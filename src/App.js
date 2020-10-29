@@ -1,24 +1,15 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Classes from './Dreamschool.js'
+import Sections from './sections.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           Yasir Welcome to future
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div className='mainBody'>
+         <Classes />
+         
+     </div>
   );
 }
 
